@@ -11,11 +11,6 @@ import 'data.dart';
    
   class _HomePageState extends State<HomePage> {
   
-  var index;
-  List<Widget> get _icons => [];
-  
- 
-
     @override
     Widget build(BuildContext context) {
       return Scaffold(
