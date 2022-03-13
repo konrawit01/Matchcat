@@ -89,7 +89,7 @@ import 'data.dart';
                             Row(
                               mainAxisAlignment: MainAxisAlignment.center,
                               crossAxisAlignment: CrossAxisAlignment.center,
-                              children: genratester(_list[index].onofstar),
+                              children: genratester(_list[index].onofstar),//ดาว
                             )
                           ],
                         ),
@@ -104,7 +104,7 @@ import 'data.dart';
     );
   }
 
-
+// รูปดาวเพิ่มตาม ลูป for
   List<Widget> genratester(int no) {
     List<Widget> icons = [];
       for (int i  = 0; i < no; i++){
@@ -119,7 +119,7 @@ import 'data.dart';
     }
 }
 
-
+// กำหนดข้อมูล
 class ListDetails {
    String name;
    Color primarycolor;
@@ -138,7 +138,7 @@ class ListDetails {
 
 
 
-
+// List กำหนดข้อมูลแล้ว เพิ่มที่จะดึงค่าไปใช้งาน
 List<ListDetails> _list = [
   ListDetails(
     name: "EASY",
